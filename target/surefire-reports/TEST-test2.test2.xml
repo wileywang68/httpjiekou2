@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="test2.test2" time="2.382" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\workspace\mymaven"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="test" value="test*"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\workspace\mymaven"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\WILEY~1.WAN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="G:\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_91\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Java\jdk1.8.0_91\bin;D:\Java\jdk1.8.0_91\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;G:\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\MinGW\bin;C:\Python27;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files (x86)\Lua\5.1;D:\Program Files (x86)\Lua\5.1\clibs;C:\Python27\Scripts;C:\Program Files\TortoiseGit\bin;G:\splint-3.1.2\bin;C:\Users\wiley.wang\AppData\Roaming\Nox\bin;D:\Program Files\nodejs;C:\Program Files\nodejs\node_global;C:\Program Files (x86)\Mozilla Firefox;C:\Program Files (x86)\Google\Chrome\Application;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Program Files (x86)\010 Editor;G:\apache-maven-3.5.3\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wiley.wang\AppData\Roaming\npm;C:\Users\wiley.wang\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="G:\apache-maven-3.5.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="G:\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\wiley.wang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF8"/>
+    <property name="user.name" value="wiley.wang"/>
+    <property name="java.class.path" value="G:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=test* test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_91\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_91\jre\lib\resources.jar;D:\Java\jdk1.8.0_91\jre\lib\rt.jar;D:\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_91\jre\lib\jsse.jar;D:\Java\jdk1.8.0_91\jre\lib\jce.jar;D:\Java\jdk1.8.0_91\jre\lib\charsets.jar;D:\Java\jdk1.8.0_91\jre\lib\jfr.jar;D:\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp65001"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="G:\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp65001"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test2.test2" name="test2.test2.testpost" time="2.382">
+    <failure message="2 expectations failed.
+Expected response time was not a value less than &lt;500L&gt; milliseconds, was 849 milliseconds (849 milliseconds).
+JSON path r doesn&apos;t match.
+Expected: &lt;0&gt;
+  Actual: 1
+" type="java.lang.AssertionError">java.lang.AssertionError: 2 expectations failed.
+Expected response time was not a value less than &lt;500L&gt; milliseconds, was 849 milliseconds (849 milliseconds).
+JSON path r doesn&apos;t match.
+Expected: &lt;0&gt;
+  Actual: 1
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:470)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:87)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+	at test2.test2.testpost(test2.java:203)
+</failure>
+    <system-out>HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 14 May 2018 13:38:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+
+{
+    &quot;r&quot;: 1,
+    &quot;d&quot;: &quot;账号已在其它设备上登录&quot;,
+    &quot;dev&quot;: {
+        &quot;c_t&quot;: 1526305085,
+        &quot;class&quot;: &quot;PlayerController&quot;,
+        &quot;method&quot;: &quot;index&quot;,
+        &quot;db&quot;: {
+            &quot;Player&quot;: {
+                &quot;findOne&quot;: {
+                    &quot;{\&quot;token\&quot;:\&quot;cbd1da997c99c99afacbb8f7bd69859f\&quot;}&quot;: 1
+                }
+            }
+        },
+        &quot;t&quot;: 4,
+        &quot;memory&quot;: 2048
+    }
+}
+</system-out>
+  </testcase>
+</testsuite>
