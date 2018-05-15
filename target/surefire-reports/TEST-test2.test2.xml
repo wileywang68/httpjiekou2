@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="test2.test2" time="2.382" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="test2.test2" time="2.076" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_91\jre\bin"/>
@@ -66,14 +66,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test2.test2" name="test2.test2.testpost" time="2.382">
+  <testcase classname="test2.test2" name="test2.test2.testpost" time="2.076">
     <failure message="2 expectations failed.
-Expected response time was not a value less than &lt;500L&gt; milliseconds, was 849 milliseconds (849 milliseconds).
+Expected response time was not a value less than &lt;500L&gt; milliseconds, was 610 milliseconds (610 milliseconds).
 JSON path r doesn&apos;t match.
 Expected: &lt;0&gt;
   Actual: 1
 " type="java.lang.AssertionError">java.lang.AssertionError: 2 expectations failed.
-Expected response time was not a value less than &lt;500L&gt; milliseconds, was 849 milliseconds (849 milliseconds).
+Expected response time was not a value less than &lt;500L&gt; milliseconds, was 610 milliseconds (610 milliseconds).
 JSON path r doesn&apos;t match.
 Expected: &lt;0&gt;
   Actual: 1
@@ -100,7 +100,7 @@ Expected: &lt;0&gt;
 </failure>
     <system-out>HTTP/1.1 200 OK
 Server: nginx
-Date: Mon, 14 May 2018 13:38:05 GMT
+Date: Tue, 15 May 2018 01:57:14 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: close
@@ -109,7 +109,7 @@ Connection: close
     &quot;r&quot;: 1,
     &quot;d&quot;: &quot;账号已在其它设备上登录&quot;,
     &quot;dev&quot;: {
-        &quot;c_t&quot;: 1526305085,
+        &quot;c_t&quot;: 1526349434,
         &quot;class&quot;: &quot;PlayerController&quot;,
         &quot;method&quot;: &quot;index&quot;,
         &quot;db&quot;: {

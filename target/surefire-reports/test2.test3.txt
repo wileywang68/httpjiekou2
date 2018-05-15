@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: test2.test3
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
-test2.test3.testpost1()  Time elapsed: 0.013 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec <<< FAILURE!
+test2.test3.testpost1()  Time elapsed: 0.083 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path r doesn't match.
 Expected: <0>

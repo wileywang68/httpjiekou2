@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: test2.test2
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.382 sec <<< FAILURE!
-test2.test2.testpost()  Time elapsed: 2.382 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.076 sec <<< FAILURE!
+test2.test2.testpost()  Time elapsed: 2.076 sec  <<< FAILURE!
 java.lang.AssertionError: 2 expectations failed.
-Expected response time was not a value less than <500L> milliseconds, was 849 milliseconds (849 milliseconds).
+Expected response time was not a value less than <500L> milliseconds, was 610 milliseconds (610 milliseconds).
 JSON path r doesn't match.
 Expected: <0>
   Actual: 1
