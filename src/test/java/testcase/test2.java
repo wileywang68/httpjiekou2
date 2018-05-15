@@ -1,4 +1,4 @@
-package test2;
+package testcase;
 
 
 import static io.restassured.RestAssured.given;
@@ -200,7 +200,7 @@ public class test2 {
 	      .when()
 	      			.post(url).prettyPeek()
 	      .then()
-	      			.spec(publicTest.res())
+	      			.spec(publicTest.resSucess())
 	      			.body("d.info.name", equalTo("你好"))
 	      ;
 	}

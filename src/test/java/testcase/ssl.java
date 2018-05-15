@@ -1,4 +1,4 @@
-package test2;
+package testcase;
 /* 
  * Copyright 2006 Sun Microsystems, Inc.  All Rights Reserved. 
  * 

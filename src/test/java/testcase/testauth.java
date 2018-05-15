@@ -1,4 +1,4 @@
-package test2;
+package testcase;
 
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
@@ -17,7 +17,7 @@ public class testauth {
 	@Test
 	public void testAuth2(){
 		useRelaxedHTTPSValidation();
-		String token="1ee196cbf9e777e8b8d9f8ce555042a26637476d";
+		String token="7c031f3bfb6b2d71d0250d83a9bd04170c8af2f6";
 		given().auth().oauth2(token).when().get("https://api.github.com/user").prettyPeek().then().statusCode(200);
 	}
 

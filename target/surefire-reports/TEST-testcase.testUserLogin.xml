@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="test2.testsession" time="0.124" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="testcase.testUserLogin" time="0.193" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_91\jre\bin"/>
@@ -30,7 +30,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="G:\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Java\jdk1.8.0_91\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Java\jdk1.8.0_91\bin;D:\Java\jdk1.8.0_91\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;G:\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\MinGW\bin;C:\Python27;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files (x86)\Lua\5.1;D:\Program Files (x86)\Lua\5.1\clibs;C:\Python27\Scripts;C:\Program Files\TortoiseGit\bin;G:\splint-3.1.2\bin;C:\Users\wiley.wang\AppData\Roaming\Nox\bin;D:\Program Files\nodejs;C:\Program Files\nodejs\node_global;C:\Program Files (x86)\Mozilla Firefox;C:\Program Files (x86)\Google\Chrome\Application;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Program Files (x86)\010 Editor;G:\apache-maven-3.5.3\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wiley.wang\AppData\Roaming\npm;C:\Users\wiley.wang\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_91\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/Java/jdk1.8.0_91/bin/../jre/bin/server;D:/Java/jdk1.8.0_91/bin/../jre/bin;D:/Java/jdk1.8.0_91/bin/../jre/lib/amd64;D:\Java\jdk1.8.0_91\bin;D:\Java\jdk1.8.0_91\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;G:\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\MinGW\bin;C:\Python27;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files (x86)\Lua\5.1;D:\Program Files (x86)\Lua\5.1\clibs;C:\Python27\Scripts;C:\Program Files\TortoiseGit\bin;G:\splint-3.1.2\bin;C:\Users\wiley.wang\AppData\Roaming\Nox\bin;D:\Program Files\nodejs;C:\Program Files\nodejs\node_global;C:\Program Files (x86)\Mozilla Firefox;C:\Program Files (x86)\Google\Chrome\Application;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;G:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wiley.wang\AppData\Roaming\npm;C:\Users\wiley.wang\AppData\Local\Programs\Fiddler;F:\eclipse-jee-neon-R-win32-x86_64\eclipse;;."/>
     <property name="maven.conf" value="G:\apache-maven-3.5.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -55,16 +55,19 @@
     <property name="java.version" value="1.8.0_91"/>
     <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_91\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_91\jre\lib\resources.jar;D:\Java\jdk1.8.0_91\jre\lib\rt.jar;D:\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_91\jre\lib\jsse.jar;D:\Java\jdk1.8.0_91\jre\lib\jce.jar;D:\Java\jdk1.8.0_91\jre\lib\charsets.jar;D:\Java\jdk1.8.0_91\jre\lib\jfr.jar;D:\Java\jdk1.8.0_91\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp65001"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="G:\apache-maven-3.5.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp65001"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test2.testsession" name="testsession" time="0.124"/>
+  <testcase classname="testcase.testUserLogin" name="testUserlogin" time="0.071"/>
+  <testcase classname="testcase.testUserLogin" name="testUserlogin1" time="0.052"/>
+  <testcase classname="testcase.testUserLogin" name="testUserlogin2" time="0.029"/>
+  <testcase classname="testcase.testUserLogin" name="testUserlogin3" time="0.041"/>
 </testsuite>
